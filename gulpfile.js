@@ -1,7 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
-var reload      = browserSync.reload;
 var sass        = require('gulp-sass');
+var reload      = browserSync.reload;
 
 // 静态服务器
 gulp.task('browser-sync', function() {
