@@ -1,0 +1,93 @@
+$fontSmall: 0.3125rem;
+$fontBase: 0.75rem;
+
+.main {
+	header {
+		text-align: center;
+		line-height: 2.6875rem；
+	}
+
+	.content {
+		margin: 0 1.25rem 5.45rem;
+
+		.live-content {
+			p {
+				width: 17.375rem;
+				background-color: #d8f3f9;
+				font-size: $fontBase;
+				color: #666;
+				line-height: 2.5rem;
+				border-left: $fontSmall solid #127884;
+				border-radius: 3px;
+				margin: 0 auto;
+				position: relative;
+
+				&::after {
+					content:"";
+					position: absolute;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					border-right: 0.4375rem dotted #fff;
+				}
+				span {
+					font-size: 1.125rem;
+					color: #000;
+					margin-left: 1.25rem;
+					margin-right: 0.4375rem;
+				}
+			}
+		}
+
+		.live-u {
+			li {
+				border: 1px dotted #999;
+				margin-top: 1.875rem;
+				border-radius: $fontSmall;
+				padding-right: $fontSmall;
+
+				span {
+					.number {
+						color: #1278a2;
+						font-size: 1.25rem;
+						position: relative;
+						top: -0.8125rem;
+						left: 0.125rem;
+					}
+				}
+				p {
+					font-size: $fontBase;
+					color: #999;
+					text-align: right;
+					line-height: 1.4375rem;
+				}
+			}
+		}
+	}
+	footer {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background-color: #f7f7fa;
+
+		ul {
+			li {
+				width: 25%;
+				font-size: 0.875rem;
+				float: left;
+				text-align: center;
+				padding-top: $fontSmall;
+				padding-bottom: $fontSmall;
+
+				a {
+					display: block;
+					img {
+						width: 2rem;
+						border-radius: 50%;
+					}
+				}
+			}
+		} 
+	}
+}

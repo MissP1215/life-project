@@ -1,0 +1,11 @@
+<ul>
+	<% for(var i = 0; i< list.length; i++){ %>
+		<li>
+			<a href="detail.html?text_id=<%= list[i].text_id%>">
+				<span class="number"> <%= list[i].number %> </span>
+				<span><%= list[i].text %></span>
+				<p><%= list[i].name %></p>
+			</a>
+		</li>
+	<% } %>
+</ul>

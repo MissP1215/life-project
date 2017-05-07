@@ -1,0 +1,25 @@
+.main header {
+  line-height: 2.6875rem;
+  text-align: center;
+  position: relative; }
+  .main header a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1; }
+
+.main .content {
+  margin: 0 1.25rem 1.25rem; }
+  .main .content .list {
+    text-align: center; }
+    .main .content .list a {
+      display: block;
+      padding-top: 0.625rem;
+      padding-bottom: 0.625rem; }
+      .main .content .list a img {
+        width: 20rem;
+        height: 13.125rem; }
+    .main .content .list p {
+      text-align: left;
+      text-indent: 2rem; }

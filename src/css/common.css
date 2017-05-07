@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	user-select: none;
+	-webkit-user-select: none;
+}
+input,textarea {
+	appearance: none;
+	-webkit-appearance: none;
+}
+a,img,button,input,textarea {
+	-webkit-tap-highlight-color: transparent;
+}
+a {
+	text-decoration: none;
+	color: #111;
+}
+ul li {
+	list-style-type: none;
+}
+.main {
+	width: 100%;
+}

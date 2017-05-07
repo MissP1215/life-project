@@ -1,0 +1,20 @@
+{
+	"status": "1",
+	"errmsg": "",
+	"data": {
+		"list": [
+			{
+				"text_id": "10",
+				"number": "1",
+				"text": "逝去的时光，不消失的情怀。静待，就好",
+				"name": "&minus; &minus;初品小屋"
+			},
+			{
+				"text_id": "20",
+				"number": "2",
+				"text": "道路布满了缕缕阳光，舍不得打扰。",
+				"name": "&minus; &minus;东山口"
+			}
+		]
+	}
+}

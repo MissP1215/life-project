@@ -1,0 +1,8 @@
+<% for(var i = 0; i < flag; i++){ %>
+	<div class="list">
+		<% if(list.images[i]){ %>
+			<a><img src="<%= list.images[i] %>"></a>
+		<% } %>
+		<p><%= list.text[i] %></p>		
+	</div>
+<% } %>
