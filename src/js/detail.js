@@ -18,10 +18,10 @@ define(function(require, exports, module){
 				success: function(data) {
 					var json = data.data;
 					var obj  = {};
-					if(parseInt(data.status, 10) === 1 && json.list){  //强行将status转化为十进制，判断status等于1时，与json文件里面的status值一致
+					if(parseInt(data.status, 10) === 1 && json.list){  
 						
-						$.each(json.list, function(k, v) {  //循环list里面的内容出来。
-							if(parseInt(k, 10) === textId){ //用json.list的键k与id匹配
+						$.each(json.list, function(k, v) {
+							if(parseInt(k, 10) === textId){
 								obj.list = v;
 							}
 						});
