@@ -4,7 +4,7 @@ $fontBase: 0.75rem;
 .main {
 	header {
 		text-align: center;
-		line-height: 2.6875rem；
+		line-height: 2.6875rem;
 	}
 
 	.content {
@@ -39,20 +39,22 @@ $fontBase: 0.75rem;
 			}
 		}
 
-		.live-u {
+		.live-ul {
 			li {
 				border: 1px dotted #999;
 				margin-top: 1.875rem;
 				border-radius: $fontSmall;
 				padding-right: $fontSmall;
 
-				span {
-					.number {
-						color: #1278a2;
-						font-size: 1.25rem;
-						position: relative;
-						top: -0.8125rem;
-						left: 0.125rem;
+				a {
+					span {
+						&.number {
+							color: #1278a2;
+							font-size: 1.25rem;
+							position: relative;
+							top: -0.8125rem;
+							left: 0.125rem;
+						}
 					}
 				}
 				p {
@@ -84,6 +86,7 @@ $fontBase: 0.75rem;
 					display: block;
 					img {
 						width: 2rem;
+						height: 2rem;
 						border-radius: 50%;
 					}
 				}

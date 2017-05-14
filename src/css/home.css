@@ -1,7 +1,6 @@
-@charset "UTF-8";
 .main header {
   text-align: center;
-  line-height: 2.6875rem；; }
+  line-height: 2.6875rem; }
 
 .main .content {
   margin: 0 1.25rem 5.45rem; }
@@ -27,18 +26,18 @@
       color: #000;
       margin-left: 1.25rem;
       margin-right: 0.4375rem; }
-  .main .content .live-u li {
+  .main .content .live-ul li {
     border: 1px dotted #999;
     margin-top: 1.875rem;
     border-radius: 0.3125rem;
     padding-right: 0.3125rem; }
-    .main .content .live-u li span .number {
+    .main .content .live-ul li a span.number {
       color: #1278a2;
       font-size: 1.25rem;
       position: relative;
       top: -0.8125rem;
       left: 0.125rem; }
-    .main .content .live-u li p {
+    .main .content .live-ul li p {
       font-size: 0.75rem;
       color: #999;
       text-align: right;
@@ -61,4 +60,5 @@
       display: block; }
       .main footer ul li a img {
         width: 2rem;
+        height: 2rem;
         border-radius: 50%; }
