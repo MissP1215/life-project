@@ -7,6 +7,7 @@ define(function(require, exports, module){
 		init: function(){
 			textId = parseInt(getUrlParam('text_id'), 10);
 			this.content();
+			this.bindEle();
 		},
 		content: function(){
 			
@@ -33,6 +34,11 @@ define(function(require, exports, module){
 					}
 					tpl('tpl/detail.tpl.html', $('.content'), obj);
 				}
+			});
+		},
+		bindEle: function () {
+			$('header a').on('click', function () {
+				window.history.back();
 			});
 		}
 	}
